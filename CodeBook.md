@@ -9,7 +9,7 @@ The raw data are made up of two data sets (training and test) stored in their re
 - common for both data sets is the file activity_labels.txt, which contains descriptive labels for the activity IDs in Y_train.txt and Y_test.txt.
 
 ## Transformations Applied
-The script applies several transformations to the data retrieved from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  
+The run_analysis.R script (included in this repository) applies several transformations to the data retrieved from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  
   
 1. Merges training and test data (files Y_text.txt and X_test.txt).  
 2. Retains measurements on the mean and standard deviation only, i.e. variable names (specified in features.txt) containing "mean" and "std", except mean frequency and angle variables.
